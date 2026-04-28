@@ -1,0 +1,2867 @@
+[
+  {
+    "batch": "BSc (Hons) in Computer Science VIII (Batch 2022) (Max 18 Cr.Hrs Allowed) (63 students) (Load 13.5 cr.hrs)",
+    "courses": [
+      {
+        "course_code": "CSC-347",
+        "course_name": "Generative AI  (CS-Elective -VI)",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS VIII",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Naveed Hakim",
+        "timetable": [
+          {
+            "time": "Monday: 09:30 AM – 11:00 AM",
+            "venue": "SB 206"
+          },
+          {
+            "time": "Thursday: 08:00 AM – 09:30 AM",
+            "venue": "SBT 202"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-346",
+        "course_name": "Digital Finance and Blockchain Technologies (CS-Elective VI)",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS VIII",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Dr.Shamweel Qamar",
+        "timetable": [
+          {
+            "time": "Wednesday :12:30 -02:00 PM",
+            "venue": "SLASS 202"
+          },
+          {
+            "time": "Thursday: 12:30 - 02:00 PM",
+            "venue": "SLASS 015"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-427",
+        "course_name": "Numerical Computing- (CS Supporting - III)",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS VIII",
+        "prerequisite_code": "MTH-106",
+        "prerequisite_name": "Calculus & Analytical Geometry",
+        "faculty": "Dr.Shamweel Qamar",
+        "timetable": [
+          {
+            "time": "Monday: 11:00 AM – 12:30 PM",
+            "venue": "SB 306"
+          },
+          {
+            "time": "Thursday: 09:30 AM – 11:00 AM",
+            "venue": "SB 304"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-427",
+        "course_name": "Numerical Computing-  (CS Supporting - III)",
+        "credit_hours": 3,
+        "section": "B",
+        "semester": "CS VIII",
+        "prerequisite_code": "MTH-106",
+        "prerequisite_name": "Calculus & Analytical Geometry",
+        "faculty": "Mr.Farhan Ali",
+        "timetable": [
+          {
+            "time": "Monday: 02:00 PM – 03:30 PM",
+            "venue": "SB 301"
+          },
+          {
+            "time": "Thursday: 09:30 AM – 11:00 AM",
+            "venue": "SLASS 208"
+          }
+        ]
+      },
+      {
+        "course_code": "HUM-XXX",
+        "course_name": "University Elective - IV (Any Humanities elective)",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS VIII",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "From other Department",
+        "timetable": []
+      },
+      {
+        "course_code": "PRJ-404",
+        "course_name": "Project Part II",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS VIII",
+        "prerequisite_code": "PRJ-403",
+        "prerequisite_name": "Project Part I",
+        "faculty": "Ms.Huda Sarfraz",
+        "timetable": [
+          {
+            "time": "No Timetable",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "GEN-112",
+        "course_name": "Islamic Studies",
+        "credit_hours": 2,
+        "section": "A",
+        "semester": "CS VIII",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Arslan",
+        "timetable": [
+          {
+            "time": "Friday 04:00 AM – 06:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "PRJ-403",
+        "course_name": "Project Part I ( Repeat)",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "Repeat",
+        "prerequisite_code": null,
+        "prerequisite_name": "90 cr.Hrs",
+        "faculty": "Ms.Huda Sarfraz",
+        "timetable": [
+          {
+            "time": "No Timetable",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "MTH-111",
+        "course_name": "Multivariable Calculus",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "Repeat",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Dildar Shah",
+        "timetable": [
+          {
+            "time": "Monday:03:30 - 05:00 pm",
+            "venue": "SLASS 202"
+          },
+          {
+            "time": "Tuesday:03:30 - 05:00 pm",
+            "venue": "SLASS 206"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "batch": "BSc (Hons) in Computer Science VI (Batch 2023) (Max 18 Cr.Hrs Allowed) (123 Active students) (Load 17 cr.hrs)",
+    "courses": [
+      {
+        "course_code": "CSC-430",
+        "course_name": "Artificial Neural Network & Deep Learning (CS-Elective - V)",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Muhammad Adeel",
+        "timetable": [
+          {
+            "time": "Tuesday: 11:00 AM – 12:30 PM",
+            "venue": "SB 307"
+          },
+          {
+            "time": "Friday: 11:00 AM – 12:30 PM",
+            "venue": "SB 005"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-341",
+        "course_name": "DevOps and Cloud Computing Foundations (CS-Elective -VI)",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Muhammad Ali",
+        "timetable": [
+          {
+            "time": "Monday: 02:00 PM – 03:30 PM",
+            "venue": "SLASS 211"
+          },
+          {
+            "time": "Thursday: 11:00 AM – 12:30 PM",
+            "venue": "SB 306"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-340",
+        "course_name": "Computer Vision (CS-Elective -VI)",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Dr.Arslan Siddique",
+        "timetable": [
+          {
+            "time": "Wednesday: 08:00 AM – 09:30 AM",
+            "venue": "SLASS_207"
+          },
+          {
+            "time": "Friday: 02:00 PM – 03:30 PM",
+            "venue": "SLASS_207"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-346",
+        "course_name": "Digital Finance and Blockchain Technologies (CS-Elective -VI)",
+        "credit_hours": 3,
+        "section": "B",
+        "semester": "CS VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Dr.Shamweel Qamar",
+        "timetable": [
+          {
+            "time": "Tuesday 8:00 - 9:30 AM",
+            "venue": "SLASS_208"
+          },
+          {
+            "time": "Tuesday: 02:00 PM – 03:30 PM",
+            "venue": "SLASS_208"
+          }
+        ]
+      },
+      {
+        "course_code": "HUM-308",
+        "course_name": "Professional Practices",
+        "credit_hours": 2,
+        "section": "A",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Noreen Khalid",
+        "timetable": [
+          {
+            "time": "Wednesday: 12:00 PM – 02:00 PM",
+            "venue": "SB T 002"
+          }
+        ]
+      },
+      {
+        "course_code": "HUM-308",
+        "course_name": "Professional Practices",
+        "credit_hours": 2,
+        "section": "B",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Muhammad Raheel Iqbal Butt",
+        "timetable": [
+          {
+            "time": "Wednesday 08:00 AM-10:00 AM",
+            "venue": "SB T 002"
+          }
+        ]
+      },
+      {
+        "course_code": "HUM-308",
+        "course_name": "Professional Practices",
+        "credit_hours": 2,
+        "section": "C",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Muhammad Raheel Iqbal Butt",
+        "timetable": [
+          {
+            "time": "Friday 11:00 -01:00 PM",
+            "venue": "SB T 002"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-402",
+        "course_name": "Theory of Automata",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Nimra Abbas",
+        "timetable": [
+          {
+            "time": "Monday 03:30 pm -05:00 PM",
+            "venue": null
+          },
+          {
+            "time": "Tuesday 03:30 pm -05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-402",
+        "course_name": "Theory of Automata",
+        "credit_hours": 3,
+        "section": "B",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Nimra Abbas",
+        "timetable": [
+          {
+            "time": "Wednesday 11:00 AM -12:30 PM",
+            "venue": "SB 306"
+          },
+          {
+            "time": "Thursday 12:30 pm -02:00 PM",
+            "venue": "SBT 305"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-402",
+        "course_name": "Theory of Automata",
+        "credit_hours": 3,
+        "section": "C",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Sheeza Batool",
+        "timetable": [
+          {
+            "time": "Wednesday 11:00 AM -12:30 PM",
+            "venue": "SB 306"
+          },
+          {
+            "time": "Thursday 12:30 pm -02:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-332",
+        "course_name": "Computer Networks",
+        "credit_hours": 2,
+        "section": "A",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Shazia Rizwan",
+        "timetable": [
+          {
+            "time": "Tuesday 09:30 AM-11:30 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-332",
+        "course_name": "Computer Networks",
+        "credit_hours": 2,
+        "section": "B",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Shazia Rizwan",
+        "timetable": [
+          {
+            "time": "Friday: 11:00 AM – 01:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-332",
+        "course_name": "Computer Networks",
+        "credit_hours": 2,
+        "section": "C",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Shazia Rizwan",
+        "timetable": [
+          {
+            "time": "Friday: 02:00 PM – 04:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-209",
+        "course_name": "Computer Networks LAB",
+        "credit_hours": 1,
+        "section": "A",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Taqdees Gull",
+        "timetable": [
+          {
+            "time": "Wednesday 02:00 PM-03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Wednesday 03:30 PM-05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-209",
+        "course_name": "Computer Networks LAB",
+        "credit_hours": 1,
+        "section": "B",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Taqdees Gull",
+        "timetable": [
+          {
+            "time": "Thursday 03:30 PM-05:00 PM",
+            "venue": null
+          },
+          {
+            "time": "Thursday 05:00 PM-06:30 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-209",
+        "course_name": "Computer Networks LAB",
+        "credit_hours": 1,
+        "section": "C",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Hasnain Ahmed",
+        "timetable": [
+          {
+            "time": "Wednesday 12:30 PM-02:00 PM",
+            "venue": "Central Block 002"
+          },
+          {
+            "time": "Wednesday 02:00 PM-03:30 PM",
+            "venue": "Central Block 002"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-335",
+        "course_name": "HCI & Computer Graphics",
+        "credit_hours": 2,
+        "section": "A",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Hamna Anwar",
+        "timetable": [
+          {
+            "time": "Monday: 08:00 AM – 10:00 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-335",
+        "course_name": "HCI & Computer Graphics",
+        "credit_hours": 2,
+        "section": "B",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Hamna Anwar",
+        "timetable": [
+          {
+            "time": "Thursday 08:00 to 10:00 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-335",
+        "course_name": "HCI & Computer Graphics",
+        "credit_hours": 2,
+        "section": "C",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Sania Khalid",
+        "timetable": [
+          {
+            "time": "Friday 08:00 AM-10:00 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-335",
+        "course_name": "HCI & Computer Graphics Lab",
+        "credit_hours": 1,
+        "section": "A",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Rameen Shahram",
+        "timetable": [
+          {
+            "time": "Thursday 02:00 PM-03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Thursday 03:30 PM-05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-335",
+        "course_name": "HCI & Computer Graphics Lab",
+        "credit_hours": 1,
+        "section": "B",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Rameen Shahram",
+        "timetable": [
+          {
+            "time": "Wednesday 02:00 PM-03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Wednesday03:30 PM-05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-335",
+        "course_name": "HCI & Computer Graphics Lab",
+        "credit_hours": 1,
+        "section": "C",
+        "semester": "CS  VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Sania Khalid",
+        "timetable": [
+          {
+            "time": "Friday 04:00 PM-05:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Friday 05:30 PM-07:00 PM",
+            "venue": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "batch": "BSc (Hons) in Computer Science IV (Batch 2024) (Max 18 Cr.Hrs Allowed) (166 students) (Load 17 cr.hrs)",
+    "courses": [
+      {
+        "course_code": "CSC-233",
+        "course_name": "Artificial Intelligence",
+        "credit_hours": 2,
+        "section": "B",
+        "semester": "CS IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms. Noreen Khalid",
+        "timetable": [
+          {
+            "time": "Thursday 11:00 AM-1:00 PM",
+            "venue": "SB T 002"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-233",
+        "course_name": "Artificial Intelligence",
+        "credit_hours": 2,
+        "section": "C",
+        "semester": "CS IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms. Noreen Khalid",
+        "timetable": [
+          {
+            "time": "Wednesday 10:00 AM-12:00 PM",
+            "venue": "SB T 002"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-233",
+        "course_name": "Artificial Intelligence",
+        "credit_hours": 2,
+        "section": "D",
+        "semester": "CS IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Saad Azhar",
+        "timetable": [
+          {
+            "time": "Wednesday 09:30 To 11:30 AM",
+            "venue": "SLASS 211"
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-233",
+        "course_name": "Artificial Intelligence LAB",
+        "credit_hours": 1,
+        "section": "A",
+        "semester": "CS IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Muhammad Abubakar",
+        "timetable": [
+          {
+            "time": "Monday 02:00 PM-03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Monday 03:30 PM-05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-233",
+        "course_name": "Artificial Intelligence LAB",
+        "credit_hours": 1,
+        "section": "B",
+        "semester": "CS IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Muhammad Abubakar",
+        "timetable": [
+          {
+            "time": "Tuesday 02:00 PM-03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Tuesday 03:30 PM- 05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-233",
+        "course_name": "Artificial Intelligence LAB",
+        "credit_hours": 1,
+        "section": "C",
+        "semester": "CS IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Muhammad Abubakar",
+        "timetable": [
+          {
+            "time": "Wednesday 02:00 PM-03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Wednesday 03:30 PM-05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-233",
+        "course_name": "Artificial Intelligence LAB",
+        "credit_hours": 1,
+        "section": "D",
+        "semester": "CS IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Muhammad Abubakar",
+        "timetable": [
+          {
+            "time": "Tuesday 08:00 AM -09:30 AM",
+            "venue": "Central Block 003"
+          },
+          {
+            "time": "Tuesday 09:30 AM -11:00 AM",
+            "venue": "Central Block 003"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-342",
+        "course_name": "Analysis of Algorithms",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-220",
+        "prerequisite_name": "Data Structures",
+        "faculty": "Mr.Zaman Aziz",
+        "timetable": [
+          {
+            "time": "Thursday 08:00 AM -09:30 AM",
+            "venue": null
+          },
+          {
+            "time": "Friday 08:00 AM-09:30 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-342",
+        "course_name": "Analysis of Algorithms",
+        "credit_hours": 3,
+        "section": "B",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-220",
+        "prerequisite_name": "Data Structures",
+        "faculty": "Mr.Jawad Farooq",
+        "timetable": [
+          {
+            "time": "Thursday 08:00 to 9:30 AM",
+            "venue": null
+          },
+          {
+            "time": "Friday 08:00 to 9:30 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-342",
+        "course_name": "Analysis of Algorithms",
+        "credit_hours": 3,
+        "section": "C",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-220",
+        "prerequisite_name": "Data Structures",
+        "faculty": "Mr.Jawad Farooq",
+        "timetable": [
+          {
+            "time": "Wednesday 08:00 AM-09:30 AM",
+            "venue": "SLASS_210"
+          },
+          {
+            "time": "Thursday 11:00 AM- 12:30 PM",
+            "venue": "SLASS_210"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-418",
+        "course_name": "Mobile Computing (CS-Elective - I)",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Asim Irshad",
+        "timetable": [
+          {
+            "time": "Thursday 09:30 AM -11:00 AM",
+            "venue": null
+          },
+          {
+            "time": "Friday 09:30 AM -11:00 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-324",
+        "course_name": "Web Engineering (CS-Elective - I)",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Nouman Ali",
+        "timetable": [
+          {
+            "time": "Thursday 02:00 PM -03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Friday 02:00 PM -03:30 PM",
+            "venue": "Central Block 003"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-327",
+        "course_name": "Intro to Data Science (CS-Elective - I)",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Muhammad Asad",
+        "timetable": [
+          {
+            "time": "Thursday 03:30 PM -05:00 PM",
+            "venue": "SB 206"
+          },
+          {
+            "time": "Friday 03:30 PM -05:00 PM",
+            "venue": "SB T 204"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-400",
+        "course_name": "Natural Language Processing (CS-Elective - I)",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Huda Sarfraz",
+        "timetable": [
+          {
+            "time": "Wednesday 11:00 AM- 12:30 PM",
+            "venue": "SB T 204"
+          },
+          {
+            "time": "Friday 11:00 AM to 12:30 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-236",
+        "course_name": "Comp Organization & Assembly Language",
+        "credit_hours": 2,
+        "section": "A",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-119",
+        "prerequisite_name": "Digital Logic Design",
+        "faculty": "Ms.Nimra Abbas",
+        "timetable": [
+          {
+            "time": "Wednesday 03:30 PM- 05:30 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-236",
+        "course_name": "Comp Organization & Assembly Language",
+        "credit_hours": 2,
+        "section": "B",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-119",
+        "prerequisite_name": "Digital Logic Design",
+        "faculty": "Ms.Sheeza Batool",
+        "timetable": [
+          {
+            "time": "Monday 03:30 PM- 05:30 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-236",
+        "course_name": "Comp Organization & Assembly Language",
+        "credit_hours": 2,
+        "section": "C",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-119",
+        "prerequisite_name": "Digital Logic Design",
+        "faculty": "Ms.Sheeza Batool",
+        "timetable": [
+          {
+            "time": "Monday  09:30 To 11:30 AM",
+            "venue": "SBT 002"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-236",
+        "course_name": "Comp Organization & Assembly Language",
+        "credit_hours": 2,
+        "section": "D",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-119",
+        "prerequisite_name": "Digital Logic Design",
+        "faculty": "Ms.Sheeza Batool",
+        "timetable": [
+          {
+            "time": "Friday 11:00 AM-01:00 PM",
+            "venue": "SB 206"
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-236",
+        "course_name": "Comp Organization & Assembly Language Lab",
+        "credit_hours": 1,
+        "section": "A",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-119",
+        "prerequisite_name": "Digital Logic Design",
+        "faculty": "Mr.Uzair Bashir",
+        "timetable": [
+          {
+            "time": "Tuesday 08:00 AM-09:30 AM",
+            "venue": null
+          },
+          {
+            "time": "Tuesday 09:30 AM-11:00 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-236",
+        "course_name": "Comp Organization & Assembly Language Lab",
+        "credit_hours": 1,
+        "section": "B",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-119",
+        "prerequisite_name": "Digital Logic Design",
+        "faculty": "Mr.Uzair Bashir",
+        "timetable": [
+          {
+            "time": "Wednesday 08:00 AM-09:30 AM",
+            "venue": null
+          },
+          {
+            "time": "Wednesday 09:30 AM-11:00 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-236",
+        "course_name": "Comp Organization & Assembly Language Lab",
+        "credit_hours": 1,
+        "section": "C",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-119",
+        "prerequisite_name": "Digital Logic Design",
+        "faculty": "Mr.Uzair Bashir",
+        "timetable": [
+          {
+            "time": "Tuesday 05:00 PM-06:30 PM",
+            "venue": "Central Block 002"
+          },
+          {
+            "time": "Wednesday 12:30 PM-02:00 PM",
+            "venue": "Central Block 004"
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-236",
+        "course_name": "Comp Organization & Assembly Language Lab",
+        "credit_hours": 1,
+        "section": "D",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-119",
+        "prerequisite_name": "Digital Logic Design",
+        "faculty": "Mr.Ali Hafeez",
+        "timetable": [
+          {
+            "time": "Tuesday 02:00 PM-03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Tuesday 03:30 PM -05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-234",
+        "course_name": "Advanced Database Management Systems",
+        "credit_hours": 2,
+        "section": "A",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-202",
+        "prerequisite_name": "Database Systems",
+        "faculty": "Ms.Talia Noureen",
+        "timetable": [
+          {
+            "time": "Monday 08:00 AM – 10:00 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-234",
+        "course_name": "Advanced Database Management Systems",
+        "credit_hours": 2,
+        "section": "B",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-202",
+        "prerequisite_name": "Database Systems",
+        "faculty": "Ms.Talia Noureen",
+        "timetable": [
+          {
+            "time": "Wednesday 02:00 PM-04:00 PM",
+            "venue": "Central Block 105"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-234",
+        "course_name": "Advanced Database Management Systems",
+        "credit_hours": 2,
+        "section": "C",
+        "semester": "",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Talia Noureen",
+        "timetable": [
+          {
+            "time": "Thursday 12:30 PM-02:30 PM",
+            "venue": "SLASS_B 002"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-234",
+        "course_name": "Advanced Database Management Systems",
+        "credit_hours": 2,
+        "section": "D",
+        "semester": "",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Talia Noureen",
+        "timetable": [
+          {
+            "time": "Monday 10:30 AM-12:30 PM",
+            "venue": "Central Block 105"
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-234",
+        "course_name": "Advanced Database Management Systems Lab",
+        "credit_hours": 1,
+        "section": "A",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-202",
+        "prerequisite_name": "Database Systems",
+        "faculty": "Ms.Sumaiya Naumaan",
+        "timetable": [
+          {
+            "time": "Tuesday 02:00 PM-03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Tuesday 03:30 PM-05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-234",
+        "course_name": "Advanced Database Management Systems Lab",
+        "credit_hours": 1,
+        "section": "B",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-202",
+        "prerequisite_name": "Database Systems",
+        "faculty": "Ms.Sumaiya Naumaan",
+        "timetable": [
+          {
+            "time": "Monday 09:30 AM-11:00 AM",
+            "venue": null
+          },
+          {
+            "time": "Monday 11:00 AM-12:30 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-234",
+        "course_name": "Advanced Database Management Systems Lab",
+        "credit_hours": 1,
+        "section": "C",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-202",
+        "prerequisite_name": "Database Systems",
+        "faculty": "Ms.Sumaiya Naumaan",
+        "timetable": [
+          {
+            "time": "Monday 02:00 PM-03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Monday 03:30 PM-05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-234",
+        "course_name": "Advanced Database Management Systems Lab",
+        "credit_hours": 1,
+        "section": "D",
+        "semester": "CS IV",
+        "prerequisite_code": "CSC-202",
+        "prerequisite_name": "Database Systems",
+        "faculty": "Ms.Sumaiya Naumaan",
+        "timetable": [
+          {
+            "time": "Wednesday 02:00 PM -03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Wednesday 03:30 PM-05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-328",
+        "course_name": "Software Engineering",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Dr.Natash Ali Mian",
+        "timetable": [
+          {
+            "time": "Tuesday  11:00 AM-12:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Wednesday 11:00 AM-12:30 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-328",
+        "course_name": "Software Engineering",
+        "credit_hours": 3,
+        "section": "B",
+        "semester": "CS IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Dr.Natash Ali Mian",
+        "timetable": [
+          {
+            "time": "Tuesday 09:30 AM -11:00 AM",
+            "venue": null
+          },
+          {
+            "time": "Wednesday 12:30 PM -02:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-328",
+        "course_name": "Software Engineering",
+        "credit_hours": 3,
+        "section": "C",
+        "semester": "CS IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Dr.Natash Ali Mian",
+        "timetable": [
+          {
+            "time": "Monday 08:00 AM-09:00 AM",
+            "venue": "SLASS 201"
+          },
+          {
+            "time": "Thursday 09:30 AM-11:00 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-328",
+        "course_name": "Software Engineering",
+        "credit_hours": 3,
+        "section": "D",
+        "semester": "CS IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Dr.Muhammad Asad",
+        "timetable": [
+          {
+            "time": "Monday 02:00 PM-03:30 PM",
+            "venue": "SB T 305"
+          },
+          {
+            "time": "Thursday 11:00 AM -12:30 PM",
+            "venue": "SLASS_309"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "batch": "BS Computer Science Semester II (Batch 2025) (Max 18 Cr.Hrs Allowed) (144 students) (Load 16 cr.hrs)",
+    "courses": [
+      {
+        "course_code": "LAB-115",
+        "course_name": "Programming Fundamentals Lab (Repeat)",
+        "credit_hours": 1,
+        "section": "A",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Taqdees Gull",
+        "timetable": [
+          {
+            "time": "Monday 2:00 PM-03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Monday 03:30 PM-05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-115",
+        "course_name": "Programming Fundamentals (Repeat)",
+        "credit_hours": 3,
+        "section": "B",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Muhammad Ali",
+        "timetable": [
+          {
+            "time": "Monday 08:00 AM-09:30 AM",
+            "venue": "SLASS_207"
+          },
+          {
+            "time": "Wednesday 08:00 AM - 09:30 AM",
+            "venue": "SLASS_206"
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-115",
+        "course_name": "Programming Fundamentals Lab (Repeat)",
+        "credit_hours": 1,
+        "section": "B",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Taqdees Gull",
+        "timetable": [
+          {
+            "time": "Friday 02:00 PM-03:30 PM",
+            "venue": "Central Block 002"
+          },
+          {
+            "time": "Friday 03:30 PM-05:00 PM",
+            "venue": "Central Block 002"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-213",
+        "course_name": "Object Oriented Programming",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS II",
+        "prerequisite_code": "CSC-115",
+        "prerequisite_name": "Programming Fundamentals",
+        "faculty": "Mr.Nouman Ali",
+        "timetable": [
+          {
+            "time": "Tuesday 09:30 AM -11:00 AM",
+            "venue": "Central Block 004"
+          },
+          {
+            "time": "Thursday 09:30 AM-11:00 AM",
+            "venue": "Central Block 003"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-213",
+        "course_name": "Object Oriented Programming",
+        "credit_hours": 3,
+        "section": "B",
+        "semester": "CS II",
+        "prerequisite_code": "CSC-115",
+        "prerequisite_name": "Programming Fundamentals",
+        "faculty": "Mr.Nouman Ali",
+        "timetable": [
+          {
+            "time": "Tuesday 02:00 PM-03:30 PM",
+            "venue": "SLASS SLASS_207"
+          },
+          {
+            "time": "Wednesday 03:30 PM -05:00 PM",
+            "venue": "SLASS_207"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-213",
+        "course_name": "Object Oriented Programming",
+        "credit_hours": 3,
+        "section": "C",
+        "semester": "CS II",
+        "prerequisite_code": "CSC-115",
+        "prerequisite_name": "Programming Fundamentals",
+        "faculty": "Muhamamd Adeel",
+        "timetable": [
+          {
+            "time": "Tuesday 02:00 PM-03:30 PM",
+            "venue": "SLASS SLASS_207"
+          },
+          {
+            "time": "Wednesday 03:30 PM -05:00 PM",
+            "venue": "SLASS SLASS_207"
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-213",
+        "course_name": "Object Oriented Programming Lab",
+        "credit_hours": 1,
+        "section": "A",
+        "semester": "CS II",
+        "prerequisite_code": "CSC-115",
+        "prerequisite_name": "Programming Fundamentals",
+        "faculty": "Mr.Ali Hafeez",
+        "timetable": [
+          {
+            "time": "Wednesday 02:00 PM -03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Wednesday 03:30 PM-05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-213",
+        "course_name": "Object Oriented Programming Lab",
+        "credit_hours": 1,
+        "section": "B",
+        "semester": "CS II",
+        "prerequisite_code": "CSC-115",
+        "prerequisite_name": "Programming Fundamentals",
+        "faculty": "Mr.Ali Hafeez",
+        "timetable": [
+          {
+            "time": "Friday 09:30 AM-11:00 AM",
+            "venue": null
+          },
+          {
+            "time": "Friday 11:00 AM-12:30 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-213",
+        "course_name": "Object Oriented Programming Lab",
+        "credit_hours": 1,
+        "section": "C",
+        "semester": "CS II",
+        "prerequisite_code": "CSC-115",
+        "prerequisite_name": "Programming Fundamentals",
+        "faculty": "Muhamamd Adeel",
+        "timetable": [
+          {
+            "time": "Friday 02:00 PM-03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Friday 03:30 PM-05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "GEN-200",
+        "course_name": "Expository Writing",
+        "credit_hours": 3,
+        "section": "A (E",
+        "semester": "CS II",
+        "prerequisite_code": "GEN-104",
+        "prerequisite_name": "Functional English",
+        "faculty": "Mr.Ahmed Riaz Khan",
+        "timetable": [
+          {
+            "time": "Wednesday 12:30 PM -02:00",
+            "venue": "SB 306"
+          },
+          {
+            "time": "Thursday  12:30 PM - 02:00 PM",
+            "venue": "SB306"
+          }
+        ]
+      },
+      {
+        "course_code": "GEN-200",
+        "course_name": "Expository Writing",
+        "credit_hours": 3,
+        "section": "B (D)",
+        "semester": "CS II",
+        "prerequisite_code": "GEN-104",
+        "prerequisite_name": "Functional English",
+        "faculty": "Ms.Mehtab Alvi",
+        "timetable": [
+          {
+            "time": "Wednesday 12:30 PM -02:00",
+            "venue": "SB T 303"
+          },
+          {
+            "time": "Thursday  12:30 PM - 02:00 PM",
+            "venue": "SB T 303"
+          }
+        ]
+      },
+      {
+        "course_code": "GEN-200",
+        "course_name": "Expository Writing",
+        "credit_hours": 3,
+        "section": "C (L)",
+        "semester": "CS II",
+        "prerequisite_code": "GEN-104",
+        "prerequisite_name": "Functional English",
+        "faculty": "Ms.Shumaila Naqvi",
+        "timetable": [
+          {
+            "time": "Wednesday 12:30 PM -02:00",
+            "venue": "SB T 204"
+          },
+          {
+            "time": "Thursday  12:30 PM - 02:00 PM",
+            "venue": "SB T 204"
+          }
+        ]
+      },
+      {
+        "course_code": "MTH-203",
+        "course_name": "Linear Algebra",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Rubab Nadeem",
+        "timetable": [
+          {
+            "time": "Monday 11:00 AM-12:30 PM",
+            "venue": "SLASS_118"
+          },
+          {
+            "time": "Wednesday 11:00 AM-12:30 PM",
+            "venue": "SLASS_B 002"
+          }
+        ]
+      },
+      {
+        "course_code": "MTH-203",
+        "course_name": "Linear Algebra",
+        "credit_hours": 3,
+        "section": "B",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Rubab Nadeem",
+        "timetable": [
+          {
+            "time": "Tuesday 03:30 PM-05:00 PM",
+            "venue": "SB 206"
+          },
+          {
+            "time": "Wednesday 02:00 PM-03:30 PM",
+            "venue": "SB 302"
+          }
+        ]
+      },
+      {
+        "course_code": "MTH-203",
+        "course_name": "Linear Algebra",
+        "credit_hours": 3,
+        "section": "C",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Rubab Nadeem",
+        "timetable": [
+          {
+            "time": "Wednesday 03:30 PM-05:00 PM",
+            "venue": "SLASS_B 002"
+          },
+          {
+            "time": "Thursday 09:30 AM-11:00 AM",
+            "venue": "SLASS_B 002"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-119",
+        "course_name": "Digital Logic Design",
+        "credit_hours": 2,
+        "section": "A",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Uzair Bashir",
+        "timetable": [
+          {
+            "time": "Friday 08:00 AM-10:00 AM",
+            "venue": "SB 306"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-119",
+        "course_name": "Digital Logic Design",
+        "credit_hours": 2,
+        "section": "B",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Dr.Owais Tariq",
+        "timetable": [
+          {
+            "time": "Thursday 08:00 AM-10:00 AM",
+            "venue": "SB 306"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-119",
+        "course_name": "Digital Logic Design",
+        "credit_hours": 2,
+        "section": "C",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Qamar Abbas",
+        "timetable": [
+          {
+            "time": "Friday 10:00 AM-12:00 PM",
+            "venue": "SB 205"
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-119",
+        "course_name": "Digital Logic Design LAB",
+        "credit_hours": 1,
+        "section": "A",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Uzair Bashir",
+        "timetable": [
+          {
+            "time": "Tuesday 02:00 PM-03:30 PM",
+            "venue": "Central Block 105"
+          },
+          {
+            "time": "Tuesday 03:30 PM-05:00 PM",
+            "venue": "Central Block 105"
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-119",
+        "course_name": "Digital Logic Design LAB",
+        "credit_hours": 1,
+        "section": "B",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Shazil Ali",
+        "timetable": [
+          {
+            "time": "Tuesday 09:30 AM-11:00 AM",
+            "venue": "Tuesday 09:30 AM-11:00 AM"
+          },
+          {
+            "time": "Tuesday 11:00 AM-12:30 PM",
+            "venue": "Tuesday 11:00 AM-12:30 PM"
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-119",
+        "course_name": "Digital Logic Design LAB",
+        "credit_hours": 1,
+        "section": "C",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Shazil Ali",
+        "timetable": [
+          {
+            "time": "Tuesday 02:00 PM-05:00 PM",
+            "venue": "SB 306"
+          },
+          {
+            "time": "Tuesday 03:30 PM-05:00 PM",
+            "venue": "SB 306"
+          }
+        ]
+      },
+      {
+        "course_code": "BNU-200",
+        "course_name": "Climate Change and Sustainability (Environmental Science)",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Chaman Naz",
+        "timetable": [
+          {
+            "time": "Thursday  03:30 PM-05:00 PM",
+            "venue": "SB 307"
+          },
+          {
+            "time": "Friday 03:30 PM-05:00 PM",
+            "venue": "SB 205"
+          }
+        ]
+      },
+      {
+        "course_code": "BNU-200",
+        "course_name": "Climate Change and Sustainability (Environmental Science)",
+        "credit_hours": 3,
+        "section": "B",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Sana Hayat",
+        "timetable": [
+          {
+            "time": "Thursday 03:30 PM-05:00 PM",
+            "venue": "SB T 305"
+          },
+          {
+            "time": "Friday  03:30 PM-05:00 PM",
+            "venue": "SLASS 211"
+          }
+        ]
+      },
+      {
+        "course_code": "BNU-200",
+        "course_name": "Climate Change and Sustainability (Environmental Science)",
+        "credit_hours": 3,
+        "section": "C",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Sana Hayat",
+        "timetable": [
+          {
+            "time": "Thursday 05:00 PM-06:30 PM",
+            "venue": "SLASS_015"
+          },
+          {
+            "time": "Friday 05:00 PM-06:30 PM",
+            "venue": "SLASS_015"
+          }
+        ]
+      },
+      {
+        "course_code": "MTH-115",
+        "course_name": "Math – II (For Pre-Medical Students) Non Credit",
+        "credit_hours": 0,
+        "section": "A",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Ms.Ujala Aftab (VF)",
+        "timetable": [
+          {
+            "time": "Tuesday 11:00 AM-12:30 PM",
+            "venue": "SLASS_212"
+          },
+          {
+            "time": "Thursday 11:00 AM-12:30 PM",
+            "venue": "SLASS_212"
+          }
+        ]
+      },
+      {
+        "course_code": "MTH-115",
+        "course_name": "Math – II (For Pre-Medical Students)-Non Credit",
+        "credit_hours": 0,
+        "section": "B",
+        "semester": "CS II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Ms.Ujala Aftab (VF)",
+        "timetable": [
+          {
+            "time": "Tuesday 08:00 AM-09:30 AM",
+            "venue": "SB 004"
+          },
+          {
+            "time": "Friday 08:00 AM-09:30 AM",
+            "venue": "SB 304"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "batch": "BS Artificial Intelligence Semester II (Batch 2025) (Max 18 Cr.Hrs Allowed) (60) (Load 16 cr.hrs)",
+    "courses": [
+      {
+        "course_code": "LAB-213",
+        "course_name": "Object Oriented Programming Lab",
+        "credit_hours": 1,
+        "section": "D",
+        "semester": "AI II",
+        "prerequisite_code": "CSC-115",
+        "prerequisite_name": "Programming Fundamentals",
+        "faculty": "Ms.Amber Razzaq",
+        "timetable": [
+          {
+            "time": "Tuesday 02:00 PM-03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Tuesday 03:30 PM-05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-213",
+        "course_name": "Object Oriented Programming",
+        "credit_hours": 3,
+        "section": "E",
+        "semester": "AI II",
+        "prerequisite_code": "CSC-115",
+        "prerequisite_name": "Programming Fundamentals",
+        "faculty": "Ms.Huda Sarfraz",
+        "timetable": [
+          {
+            "time": "Tuesday 11:00 AM-12:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Thursday 11:00 AM-12:30 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-213",
+        "course_name": "Object Oriented Programming Lab",
+        "credit_hours": 1,
+        "section": "E",
+        "semester": "AI II",
+        "prerequisite_code": "CSC-115",
+        "prerequisite_name": "Programming Fundamentals",
+        "faculty": "Ms.Amber Razzaq",
+        "timetable": [
+          {
+            "time": "Wednesday 02:00 PM-03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Wednesday 03:30 PM-05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "GEN-200",
+        "course_name": "Expository Writing",
+        "credit_hours": 3,
+        "section": "D (F)",
+        "semester": "AI II",
+        "prerequisite_code": "GEN-104",
+        "prerequisite_name": "Functional English",
+        "faculty": "Ms. Mehtab Alvi",
+        "timetable": [
+          {
+            "time": "Wednesday 02:00 PM-03:30 PM",
+            "venue": "SLASS_B 002"
+          },
+          {
+            "time": "Thursday 03:30 PM-05:00 PM",
+            "venue": "SB 205"
+          }
+        ]
+      },
+      {
+        "course_code": "GEN-200",
+        "course_name": "Expository Writing",
+        "credit_hours": 3,
+        "section": "E (B)",
+        "semester": "AI II",
+        "prerequisite_code": "GEN-104",
+        "prerequisite_name": "Functional English",
+        "faculty": "Mr.M.Imran Khan Sunbal",
+        "timetable": [
+          {
+            "time": "Tuesday 02:00 PM-03:30 PM",
+            "venue": "SB T 305"
+          },
+          {
+            "time": "Thursday 08:00 AM- 09:30 AM",
+            "venue": "SB 307"
+          }
+        ]
+      },
+      {
+        "course_code": "MTH-203",
+        "course_name": "Linear Algebra",
+        "credit_hours": 3,
+        "section": "D",
+        "semester": "AI II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Dildar Shah",
+        "timetable": [
+          {
+            "time": "Monday 02:00 PM-03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Friday 02:00 PM-03:30 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "MTH-203",
+        "course_name": "Linear Algebra",
+        "credit_hours": 3,
+        "section": "E",
+        "semester": "AI II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Dr.Amir Majeed Chaudhary (VF)",
+        "timetable": [
+          {
+            "time": "Tuesday 03:30 PM-05:00 PM",
+            "venue": null
+          },
+          {
+            "time": "Friday 03:30 PM-05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-119",
+        "course_name": "Digital Logic Design",
+        "credit_hours": 2,
+        "section": "D",
+        "semester": "AI II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Sania Khalid",
+        "timetable": [
+          {
+            "time": "Tuesday 08:00-10:00 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-119",
+        "course_name": "Digital Logic Design",
+        "credit_hours": 2,
+        "section": "E",
+        "semester": "AI II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Qamar Abbas",
+        "timetable": [
+          {
+            "time": "Wednesday 08:00-10:00 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-119",
+        "course_name": "Digital Logic Design LAB",
+        "credit_hours": 1,
+        "section": "D",
+        "semester": "AI II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Amber Razzaq",
+        "timetable": [
+          {
+            "time": "Wednesday 08:00 AM-09:30 AM",
+            "venue": null
+          },
+          {
+            "time": "Wednesday 09:30 AM-11:00 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-119",
+        "course_name": "Digital Logic Design LAB",
+        "credit_hours": 1,
+        "section": "E",
+        "semester": "AI II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Amber Razzaq",
+        "timetable": [
+          {
+            "time": "Thursday 02:00 PM-03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Thursday 03:30 PM-05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "BNU-200",
+        "course_name": "Climate Change and Sustainability (Environmental Science)",
+        "credit_hours": 3,
+        "section": "D",
+        "semester": "AI II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Saima Siyal",
+        "timetable": [
+          {
+            "time": "Monday 03:30 PM-05:00 PM",
+            "venue": "SLASS_015"
+          },
+          {
+            "time": "Wednesday 03:30 PM-05:00 PM",
+            "venue": "SLASS_015"
+          }
+        ]
+      },
+      {
+        "course_code": "BNU-200",
+        "course_name": "Climate Change and Sustainability (Environmental Science)",
+        "credit_hours": 3,
+        "section": "E",
+        "semester": "AI II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "MS.Sharmeen Tariq",
+        "timetable": [
+          {
+            "time": "Wednesday 05:00 -06:30 PM",
+            "venue": "SLASS_015"
+          },
+          {
+            "time": "Friday 05:00 -06:30 PM",
+            "venue": "SLASS_118"
+          }
+        ]
+      },
+      {
+        "course_code": "MTH-115",
+        "course_name": "Math – II (For Pre-Medical Students)-A Non Credit",
+        "credit_hours": 0,
+        "section": "C",
+        "semester": "AI II+SEII",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Dildar Shah",
+        "timetable": [
+          {
+            "time": "Wednesday 11:00- 12:30 PM",
+            "venue": "SB T 303"
+          },
+          {
+            "time": "Friday 11:00 -12:30 PM",
+            "venue": "SLASS_207"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "batch": "BS Software Engineering Semester II (Batch 2025) (Max 18 Cr.Hrs Allowed) (16 cr.hrs allowed) (60 students)",
+    "courses": [
+      {
+        "course_code": "LAB-213",
+        "course_name": "Object Oriented Programming Lab",
+        "credit_hours": 1,
+        "section": "F",
+        "semester": "SE II",
+        "prerequisite_code": "CSC-115",
+        "prerequisite_name": "Programming Fundamentals",
+        "faculty": "Mr.Hasnain Ahmed",
+        "timetable": [
+          {
+            "time": "Tuesday 02:00 PM-03:30 PM",
+            "venue": "Central Block 003"
+          },
+          {
+            "time": "Tuesday 03:30 PM-05:00 PM",
+            "venue": "Central Block 003"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-213",
+        "course_name": "Object Oriented Programming",
+        "credit_hours": 3,
+        "section": "G",
+        "semester": "SE II",
+        "prerequisite_code": "CSC-115",
+        "prerequisite_name": "Programming Fundamentals",
+        "faculty": "Mr.Arslan Siddique",
+        "timetable": [
+          {
+            "time": "Monday 09:30 AM-11:00 AM",
+            "venue": "SLASS_309"
+          },
+          {
+            "time": "Friday 09:30 AM-11:00 AM",
+            "venue": "SLASS_309"
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-213",
+        "course_name": "Object Oriented Programming Lab",
+        "credit_hours": 1,
+        "section": "G",
+        "semester": "SE II",
+        "prerequisite_code": "CSC-115",
+        "prerequisite_name": "Programming Fundamentals",
+        "faculty": "Mr.Ali Hafeez",
+        "timetable": [
+          {
+            "time": "Thursday 03:30 PM-05:00 PM",
+            "venue": "Central Block 002"
+          },
+          {
+            "time": "Thursday 02:00 PM-03:30 PM",
+            "venue": "Central Block 002"
+          }
+        ]
+      },
+      {
+        "course_code": "MTH-203",
+        "course_name": "Linear Algebra",
+        "credit_hours": 3,
+        "section": "F",
+        "semester": "SE II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Farhan Ali",
+        "timetable": [
+          {
+            "time": "Monday 11:00 AM-12:30 PM",
+            "venue": "SLASS_015"
+          },
+          {
+            "time": "Friday 09:30 AM-11:00 AM",
+            "venue": "SLASS_015"
+          }
+        ]
+      },
+      {
+        "course_code": "MTH-203",
+        "course_name": "Linear Algebra",
+        "credit_hours": 3,
+        "section": "G",
+        "semester": "SE II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Farhan Ali",
+        "timetable": [
+          {
+            "time": "Tuesday 08:00 AM-09:30 AM",
+            "venue": null
+          },
+          {
+            "time": "Thursday 08:00 AM-09:30 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-119",
+        "course_name": "Digital Logic Design",
+        "credit_hours": 2,
+        "section": "F",
+        "semester": "SE II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Nabeel Ahsan",
+        "timetable": [
+          {
+            "time": "Tuesday  09:30 -11:30 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-119",
+        "course_name": "Digital Logic Design",
+        "credit_hours": 2,
+        "section": "G",
+        "semester": "SE II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Nabeel Ahsan",
+        "timetable": [
+          {
+            "time": "Thursday 10:30 AM -12:30 PM",
+            "venue": "SB 307"
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-119",
+        "course_name": "Digital Logic Design LAB",
+        "credit_hours": 1,
+        "section": "F",
+        "semester": "SE II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Shazil Ali",
+        "timetable": [
+          {
+            "time": "Wednesday  08:00 AM-09:30 AM",
+            "venue": "Central Block 105"
+          },
+          {
+            "time": "Wednesday  09:30 AM-11:0 AM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-119",
+        "course_name": "Digital Logic Design LAB",
+        "credit_hours": 1,
+        "section": "G",
+        "semester": "SE II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Shazil Ali",
+        "timetable": [
+          {
+            "time": "Friday 02:00 PM-03:30 PM",
+            "venue": null
+          },
+          {
+            "time": "Friday 03:30 PM-05:00 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "GEN-200",
+        "course_name": "Expository Writing",
+        "credit_hours": 3,
+        "section": "F (I)",
+        "semester": "SE II",
+        "prerequisite_code": "GEN-104",
+        "prerequisite_name": "Functional English",
+        "faculty": "Ms.Naureen Zaman",
+        "timetable": [
+          {
+            "time": "Wednesday 02:00 PM-03:30 PM",
+            "venue": "SLASS_B 002"
+          },
+          {
+            "time": "Thursday 03:30 PM-05:00 PM",
+            "venue": "SB 205"
+          }
+        ]
+      },
+      {
+        "course_code": "GEN-200",
+        "course_name": "Expository Writing",
+        "credit_hours": 3,
+        "section": "G (G)",
+        "semester": "SE II",
+        "prerequisite_code": "GEN-104",
+        "prerequisite_name": "Functional English",
+        "faculty": "Ms.Arooma David",
+        "timetable": [
+          {
+            "time": "Wednesday12:30 PM-02:00 PM",
+            "venue": "SB T 201"
+          },
+          {
+            "time": "Thursday 12:30 PM-02:00 PM",
+            "venue": "SB T 201"
+          }
+        ]
+      },
+      {
+        "course_code": "BNU-200",
+        "course_name": "Climate Change and Sustainability (Environmental Science)",
+        "credit_hours": 3,
+        "section": "F",
+        "semester": "SE II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Zainab Ahmed",
+        "timetable": [
+          {
+            "time": "Tuesday 02:00 -03:30 PM",
+            "venue": "SLASS_015"
+          },
+          {
+            "time": "Wednesday 02:00 to 03:30 PM",
+            "venue": "SLASS_015"
+          }
+        ]
+      },
+      {
+        "course_code": "MTH-115",
+        "course_name": "Math – II (For Pre-Medical Students)-A Non Credit",
+        "credit_hours": 0,
+        "section": "C",
+        "semester": "SE II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Dildar  Shah",
+        "timetable": [
+          {
+            "time": "Wednesday 11:00 -12:30 PM",
+            "venue": "SB T 303"
+          },
+          {
+            "time": "Friday 11:00 -12:30 PM",
+            "venue": "SLASS 207"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "batch": "BSc (Hons) in Software Engineering Semester IV (Batch 2024)  (Max 18 Cr.Hrs Allowed) (70 students)",
+    "courses": [
+      {
+        "course_code": "CSC-233",
+        "course_name": "Artificial Intelligence",
+        "credit_hours": 2,
+        "section": "F",
+        "semester": "SE IV",
+        "prerequisite_code": "CSC-213",
+        "prerequisite_name": "Object Oriented Programming",
+        "faculty": "Mr.Saad Azhar",
+        "timetable": [
+          {
+            "time": "Wednesday 11:30 -01:30 PM",
+            "venue": "SB 301"
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-233",
+        "course_name": "Artificial Intelligence LAB",
+        "credit_hours": 1,
+        "section": "E",
+        "semester": "SE IV",
+        "prerequisite_code": "CSC-213",
+        "prerequisite_name": "Object Oriented Programming",
+        "faculty": "Mr.Hasnain Ahmed",
+        "timetable": [
+          {
+            "time": "Friday 02:00 -03:30 PM",
+            "venue": "Central Block 004"
+          },
+          {
+            "time": "Friday 03:30 -05:30 PM",
+            "venue": "Central Block 004"
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-233",
+        "course_name": "Artificial Intelligence LAB",
+        "credit_hours": 1,
+        "section": "F",
+        "semester": "SE IV",
+        "prerequisite_code": "CSC-213",
+        "prerequisite_name": "Object Oriented Programming",
+        "faculty": "Mr.Hasnain Ahmed",
+        "timetable": [
+          {
+            "time": "Thursday 02:00 -03:30 PM",
+            "venue": "Central Block 003"
+          },
+          {
+            "time": "Thursday 03:30 -05:30 PM",
+            "venue": "Central Block 003"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-342",
+        "course_name": "Analysis of Algorithms",
+        "credit_hours": 3,
+        "section": "E",
+        "semester": "SE IV",
+        "prerequisite_code": "CSC-220",
+        "prerequisite_name": "Data Structures",
+        "faculty": "Mr.Zaman Aziz",
+        "timetable": [
+          {
+            "time": "Monday 02:00- 03:30 PM",
+            "venue": "Central Block 105"
+          },
+          {
+            "time": "Wednesday 02:00 -03:30 PM",
+            "venue": "Online"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-342",
+        "course_name": "Analysis of Algorithms",
+        "credit_hours": 3,
+        "section": "F",
+        "semester": "SE IV",
+        "prerequisite_code": "CSC-220",
+        "prerequisite_name": "Data Structures",
+        "faculty": "Mr.Zaman Aziz",
+        "timetable": [
+          {
+            "time": "Thursday 09:30 -11:00 AM",
+            "venue": "SLASS 207"
+          },
+          {
+            "time": "Friday 09:30 -11:00 AM",
+            "venue": "SLASS 207"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-236",
+        "course_name": "Comp Organization & Assembly Language",
+        "credit_hours": 2,
+        "section": "E",
+        "semester": "SE IV",
+        "prerequisite_code": "CSC-119",
+        "prerequisite_name": "Digital Logic Design",
+        "faculty": "Dr.Arslan Siddique",
+        "timetable": [
+          {
+            "time": "Monday 03:30 - 05:30 PM",
+            "venue": "SLASS 207"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-236",
+        "course_name": "Comp Organization & Assembly Language",
+        "credit_hours": 2,
+        "section": "F",
+        "semester": "SE IV",
+        "prerequisite_code": "CSC-119",
+        "prerequisite_name": "Digital Logic Design",
+        "faculty": "Ms.Ayesha Seher",
+        "timetable": [
+          {
+            "time": "Wednesday 09:30 To 11:30 AM",
+            "venue": "SLASS 013"
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-236",
+        "course_name": "Comp Organization & Assembly Language Lab",
+        "credit_hours": 1,
+        "section": "E",
+        "semester": "SE IV",
+        "prerequisite_code": "CSC-119",
+        "prerequisite_name": "Digital Logic Design",
+        "faculty": "Ms.Ayesha Seher",
+        "timetable": [
+          {
+            "time": "Friday  09:30 To 11:30 AM",
+            "venue": "Central Block 003"
+          },
+          {
+            "time": "Friday 11:00AM-12:30 PM",
+            "venue": "Central Block 003"
+          }
+        ]
+      },
+      {
+        "course_code": "LAB-236",
+        "course_name": "Comp Organization & Assembly Language Lab",
+        "credit_hours": 1,
+        "section": "F",
+        "semester": "SE IV",
+        "prerequisite_code": "CSC-119",
+        "prerequisite_name": "Digital Logic Design",
+        "faculty": "Ms.Ayesha Seher",
+        "timetable": [
+          {
+            "time": "Friday 03:30 - 05:00 PM",
+            "venue": "Central Block 003"
+          },
+          {
+            "time": "Friday 05:00 -06:30 PM",
+            "venue": "Central Block 003"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-201",
+        "course_name": "Software Requirement Engineering",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "SE IV",
+        "prerequisite_code": "CSC-328",
+        "prerequisite_name": "Software Engineering",
+        "faculty": "Dr.Shafaat Bazaz",
+        "timetable": [
+          {
+            "time": "Wednesday 08:00 -09:30 AM",
+            "venue": "SBT 201"
+          },
+          {
+            "time": "Thursday 08:00 -09:30 AM",
+            "venue": "SBT 201"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-201",
+        "course_name": "Software Requirement Engineering",
+        "credit_hours": 3,
+        "section": "B",
+        "semester": "SE IV",
+        "prerequisite_code": "CSC-328",
+        "prerequisite_name": "Software Engineering",
+        "faculty": "Mr.Asim Irshad",
+        "timetable": [
+          {
+            "time": "Monday 08:00 - 09:30 AM",
+            "venue": "SBT 201"
+          },
+          {
+            "time": "Friday 08:00 - 09:30 AM",
+            "venue": "SBT 201"
+          }
+        ]
+      },
+      {
+        "course_code": "GEN-200",
+        "course_name": "Expository Writing",
+        "credit_hours": 3,
+        "section": "H (M)",
+        "semester": "SE IV",
+        "prerequisite_code": "GEN-104",
+        "prerequisite_name": "Functional English",
+        "faculty": "Mr.Imran Khan Sunbal",
+        "timetable": [
+          {
+            "time": "Wednesday 12:30 - 02:00 PM",
+            "venue": "SLASS 204"
+          },
+          {
+            "time": "Thursday 12:30 -02:00 PM",
+            "venue": "SB 307"
+          }
+        ]
+      },
+      {
+        "course_code": "GEN-200",
+        "course_name": "Expository Writing",
+        "credit_hours": 3,
+        "section": "I (A)",
+        "semester": "SE IV",
+        "prerequisite_code": "GEN-104",
+        "prerequisite_name": "Functional English",
+        "faculty": "Mr.Ahmed Riaz Khan",
+        "timetable": [
+          {
+            "time": "Wednesday 08:00 - 09:30 AM",
+            "venue": "SBT 303"
+          },
+          {
+            "time": "Thursday 08:00 - 09:30 AM",
+            "venue": "SBT 303"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-327",
+        "course_name": "Intro to Data Science (Domian Elective)",
+        "credit_hours": 3,
+        "section": "B",
+        "semester": "SE IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Naveed Hakim",
+        "timetable": [
+          {
+            "time": "Monday 08:00 AM-09:30 AM",
+            "venue": "Central Block 004"
+          },
+          {
+            "time": "Friday 08:00 AM-09:30 AM",
+            "venue": "Central Block 004"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-327",
+        "course_name": "Intro to Data Science (Domian Elective)",
+        "credit_hours": 3,
+        "section": "C",
+        "semester": "SE IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Naveed Hakim",
+        "timetable": [
+          {
+            "time": "Monday 11:00AM-12:30 PM",
+            "venue": "SB 307"
+          },
+          {
+            "time": "Friday 11:00AM-12:30 PM",
+            "venue": "SB 307"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "batch": "BSc (Hons) in Management & Business Computing Semester VI (Batch 2023) (Max 18 Cr.Hrs Allowed) (35) (Load 18 cr.hrs)",
+    "courses": [
+      {
+        "course_code": "BUS-301",
+        "course_name": "Contract and Cyber Law",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "MBC VI",
+        "prerequisite_code": "BUS-201",
+        "prerequisite_name": "Businesses and Organizations",
+        "faculty": "Muhammad Mansoor (VF)",
+        "timetable": [
+          {
+            "time": "Monday 2:00 PM - 3:30 PM",
+            "venue": "SB 302"
+          },
+          {
+            "time": "Wednesday 2:00 PM - 3:30 PM",
+            "venue": "SB 301"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-338",
+        "course_name": "Network Administration",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "MBC VI",
+        "prerequisite_code": "CSC-203",
+        "prerequisite_name": "Computer Networks",
+        "faculty": "Mr.Nabeel Ahsan",
+        "timetable": [
+          {
+            "time": "Tuesday 2:00 PM - 3:30 PM",
+            "venue": "SLASS 206"
+          },
+          {
+            "time": "Thursday 2:00 PM - 3:30 PM",
+            "venue": "SLASS 309"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-238",
+        "course_name": "Machine Learning ( Technical Elective -III)",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "MBC VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr..Asfand Yar Akbar",
+        "timetable": [
+          {
+            "time": "Friday 8:00 -09:30 AM",
+            "venue": "SLASS 210"
+          },
+          {
+            "time": "Friday 09:30 -11:00 AM",
+            "venue": "SLASS 210"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-339",
+        "course_name": "Cyber Sceurity ( Technical Elective -IV)",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "MBC VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Nabeel Ahsan",
+        "timetable": [
+          {
+            "time": "Monday 09:30 -11:00 AM",
+            "venue": null
+          },
+          {
+            "time": "Wednesday 09:30 -11:00 AM",
+            "venue": "SLASS 207"
+          }
+        ]
+      },
+      {
+        "course_code": "BNU-200",
+        "course_name": "Climate Change and Sustainability (Environmental Science)",
+        "credit_hours": 3,
+        "section": "G",
+        "semester": "MBC VI",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Esha Wattoo",
+        "timetable": [
+          {
+            "time": "Tuesday 11:00-12:30 PM",
+            "venue": "SLASS 015"
+          },
+          {
+            "time": "Thursday 11:00-12:30 PM",
+            "venue": "SLASS 015"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "batch": "BSc (Hons) in Management & Business Computing Semester IV (Batch 2024) (Max 18 Cr.Hrs Allowed) (38) (Load 18 cr.hrs)",
+    "courses": [
+      {
+        "course_code": "MGT-203",
+        "course_name": "Organizational Behavior",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "MBC IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Dr.Shah Ali Murtaza",
+        "timetable": [
+          {
+            "time": "Wednesday 12:30 PM – 02:00 PM",
+            "venue": "SLASS 118"
+          },
+          {
+            "time": "Thursday  12:30 PM – 02:00 PM",
+            "venue": "SB 205"
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-203",
+        "course_name": "Computer Networks",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "MBC IV",
+        "prerequisite_code": "CSC-117",
+        "prerequisite_name": "Application of Information & Communication Technologies",
+        "faculty": "Ms.Shazia Rizwan",
+        "timetable": [
+          {
+            "time": "Tuesday 03:30 PM – 05:00 PM",
+            "venue": "SLASS 207"
+          },
+          {
+            "time": "Thursday 03:30 PM – 05:00 PM",
+            "venue": "SLASS 207"
+          }
+        ]
+      },
+      {
+        "course_code": "MGT-305",
+        "course_name": "Operations Management",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "MBC IV",
+        "prerequisite_code": "MGT-205",
+        "prerequisite_name": "Management for IT",
+        "faculty": "Muhammad Saeed Shahbaz (VF)",
+        "timetable": [
+          {
+            "time": "Monday 03:30 PM – 05:00 PM",
+            "venue": "SBT 201"
+          },
+          {
+            "time": "Wednesday 03:30 PM – 05:00 PM",
+            "venue": "SBT 201"
+          }
+        ]
+      },
+      {
+        "course_code": "GEN-125",
+        "course_name": "Community Engagement",
+        "credit_hours": 1,
+        "section": "A",
+        "semester": "MBC IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms. Fatima khalid",
+        "timetable": [
+          {
+            "time": "No Timetable",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "CSC-343",
+        "course_name": "Data Analytics (Technical Elective-III)",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "MBC IV",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "M.Ali Khaliq",
+        "timetable": [
+          {
+            "time": "Tuesday 08:00 AM - 09:30 AM",
+            "venue": "SLASS 015"
+          },
+          {
+            "time": "Thursday 08:00 AM - 09:30 AM",
+            "venue": "SLASS 015"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "batch": "BS Management & Business Computing Semester II (Batch 2025) (Max 18 Cr.Hrs Allowed) (34) (Load 16 cr.hrs)",
+    "courses": [
+      {
+        "course_code": "LAB-213",
+        "course_name": "Object Oriented Programming-LAB",
+        "credit_hours": 1,
+        "section": "H",
+        "semester": "MBC II",
+        "prerequisite_code": "CSC-115",
+        "prerequisite_name": "Programming Fundamentals",
+        "faculty": "Ms.Amna Humayun",
+        "timetable": [
+          {
+            "time": "Tuesday 11:00 AM – 12:30 PM",
+            "venue": "Central Block 002"
+          },
+          {
+            "time": "Tuesday 02:00 PM – 03:30 PM",
+            "venue": "Central Block 004"
+          }
+        ]
+      },
+      {
+        "course_code": "GEN-200",
+        "course_name": "Expository Writing",
+        "credit_hours": 3,
+        "section": "J (C)",
+        "semester": "MBC II",
+        "prerequisite_code": "GEN-104",
+        "prerequisite_name": "Functional English",
+        "faculty": "Mr.Moaz Bajwa",
+        "timetable": [
+          {
+            "time": "Wednesday 08:00 AM – 09:30 AM",
+            "venue": "SB 206"
+          },
+          {
+            "time": "Thursday 08:00 AM – 09:30 AM",
+            "venue": "SB 206"
+          }
+        ]
+      },
+      {
+        "course_code": "BUS-304",
+        "course_name": "Principles of Marketing",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "MBC II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Mr.Ammar Zaman Khan (VF)",
+        "timetable": [
+          {
+            "time": "Monday 08:00 AM – 09:30 AM",
+            "venue": "SLASS 015"
+          },
+          {
+            "time": "Thursday 12:30 PM – 02:00 PM",
+            "venue": "SLASS 013"
+          }
+        ]
+      },
+      {
+        "course_code": "FIN-101",
+        "course_name": "Intro to Finance",
+        "credit_hours": 3,
+        "section": "A",
+        "semester": "MBC II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Dr.Ahsan Ahmed",
+        "timetable": [
+          {
+            "time": "Wednesday 11:00 AM – 12:30 PM",
+            "venue": "SB 302"
+          },
+          {
+            "time": "Friday 02:00 PM – 03:30 PM",
+            "venue": null
+          }
+        ]
+      },
+      {
+        "course_code": "BNU-200",
+        "course_name": "Climate Change and Sustainability (Environmental Science)",
+        "credit_hours": 3,
+        "section": "H",
+        "semester": "MBC II",
+        "prerequisite_code": null,
+        "prerequisite_name": null,
+        "faculty": "Ms.Saima Siyal",
+        "timetable": [
+          {
+            "time": "Monday 02:00 PM – 03:30 PM",
+            "venue": "SLASS 118"
+          },
+          {
+            "time": "Wednesday  02:00 PM – 03:30 PM",
+            "venue": "SLASS 118"
+          }
+        ]
+      }
+    ]
+  }
+]
