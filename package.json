@@ -17,6 +17,11 @@
     "react-router-dom": "^7.14.2",
     "xlsx": "^0.18.5"
   },
+  "overrides": {
+    "vite-plugin-pwa": {
+      "vite": "$vite"
+    }
+  },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/node": "^24.12.2",
