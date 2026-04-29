@@ -7,6 +7,10 @@ import {
   requestNotificationPermission, type ParsedSlot,
 } from '../utils/timeUtils';
 import { scheduleReminders, clearAllReminders } from '../utils/reminderManager';
+import {
+  cancelClass, uncancelClass, todayDateStr,
+  cleanupOldCancellations, cancelKey,
+} from '../utils/cancelledClasses';
 import { useTheme } from '../context/ThemeContext';
 
 const DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
@@ -25,6 +29,7 @@ const Dashboard: React.FC = () => {
   const [section, setSection] = useState('');
   const [toast, setToast] = useState<{ message: string; type: 'success' | 'info' | 'error' } | null>(null);
   const toastTimer = useRef<ReturnType<typeof setTimeout>>();
+  const [cancelledKeys, setCancelledKeys] = useState<Set<string>>(new Set());
 
   const showToast = useCallback((message: string, type: 'success' | 'info' | 'error' = 'success') => {
     setToast({ message, type });
@@ -38,6 +43,9 @@ const Dashboard: React.FC = () => {
   }, []);
 
   useEffect(() => {
+    // Cleanup old cancellations on startup
+    cleanupOldCancellations();
+
     const storedBatch = localStorage.getItem('user-batch');
     const storedSection = localStorage.getItem('user-section');
     const electivesRaw = localStorage.getItem('user-electives');
@@ -71,10 +79,14 @@ const Dashboard: React.FC = () => {
     return () => clearInterval(timer);
   }, [navigate, buildSchedule]);
 
-  // Reschedule reminders when today's slots update
+  // Reschedule reminders when today's slots update (excluding cancelled)
   useEffect(() => {
     if (notifPermission === 'granted' && todaySlots.length > 0) {
-      const result = scheduleReminders(todaySlots, 10);
+      const dateStr = todayDateStr();
+      const activeSlots = todaySlots.filter(s =>
+        !cancelledKeys.has(cancelKey(dateStr, s.course.course_code, s.startHour, s.startMin))
+      );
+      const result = scheduleReminders(activeSlots, 10);
       if (result.scheduled > 0) {
         showToast(`🔔 ${result.scheduled} reminder${result.scheduled > 1 ? 's' : ''} set for upcoming classes`, 'success');
       }
@@ -83,7 +95,35 @@ const Dashboard: React.FC = () => {
       // Cleanup timers on unmount
       clearAllReminders();
     };
-  }, [todaySlots, notifPermission, showToast]);
+  }, [todaySlots, notifPermission, cancelledKeys, showToast]);
+
+  // Cancel / Uncancel handlers
+  const handleCancelClass = (slot: ParsedSlot) => {
+    const dateStr = todayDateStr();
+    cancelClass(dateStr, slot.course.course_code, slot.startHour, slot.startMin);
+    setCancelledKeys(prev => {
+      const next = new Set(prev);
+      next.add(cancelKey(dateStr, slot.course.course_code, slot.startHour, slot.startMin));
+      return next;
+    });
+    showToast(`❌ ${slot.course.course_name} cancelled for today`, 'info');
+  };
+
+  const handleUncancelClass = (slot: ParsedSlot) => {
+    const dateStr = todayDateStr();
+    uncancelClass(dateStr, slot.course.course_code, slot.startHour, slot.startMin);
+    setCancelledKeys(prev => {
+      const next = new Set(prev);
+      next.delete(cancelKey(dateStr, slot.course.course_code, slot.startHour, slot.startMin));
+      return next;
+    });
+    showToast(`✅ ${slot.course.course_name} restored`, 'success');
+  };
+
+  const isSlotCancelled = (slot: ParsedSlot): boolean => {
+    const dateStr = todayDateStr();
+    return cancelledKeys.has(cancelKey(dateStr, slot.course.course_code, slot.startHour, slot.startMin));
+  };
 
   const handleRequestNotif = async () => {
     const perm = await requestNotificationPermission();
@@ -309,13 +349,16 @@ const Dashboard: React.FC = () => {
                 <div className="space-y-3 relative before:absolute before:left-[21px] before:top-4 before:bottom-4 before:w-[2px] before:bg-gray-200 dark:before:bg-gray-800">
                   {todaySlots.map((slot, idx) => {
                     const status = classifySlot(slot, now);
+                    const cancelled = isSlotCancelled(slot);
                     return (
                       <div key={idx} className="relative pl-12">
                         <div className={`absolute left-4 top-5 w-3 h-3 rounded-full border-2 border-white dark:border-gray-950 z-10 shadow-sm ${
+                          cancelled ? 'bg-gray-400 dark:bg-gray-600' :
                           status === 'live' ? 'bg-error animate-pulse' :
                           status === 'past' ? 'bg-gray-300 dark:bg-gray-700' : 'bg-primary dark:bg-primary-fixed-dim'
                         }`} />
                         <div className={`glass-card p-5 rounded-xl flex items-center justify-between transition-all ${
+                          cancelled ? 'opacity-50 border-dashed' :
                           status === 'live' ? 'ring-2 ring-error/50' :
                           status === 'past' ? 'opacity-50' :
                           'hover:border-primary-fixed-dim'
@@ -324,17 +367,46 @@ const Dashboard: React.FC = () => {
                             <span className="text-label-sm text-secondary dark:text-gray-400 font-bold uppercase tracking-wide">
                               {slot.startLabel} – {slot.endLabel}
                             </span>
-                            <h4 className="text-headline-sm text-on-surface dark:text-gray-100 truncate">{slot.course.course_name}</h4>
-                            <p className="text-body-md text-secondary dark:text-gray-400">Room: {slot.venue || 'TBA'} · {slot.course.faculty || 'TBA'}</p>
+                            <h4 className={`text-headline-sm dark:text-gray-100 truncate ${cancelled ? 'line-through text-gray-400 dark:text-gray-500' : 'text-on-surface'}`}>{slot.course.course_name}</h4>
+                            <p className="text-body-md text-secondary dark:text-gray-400">
+                              {cancelled ? (
+                                <span className="text-error dark:text-red-400 font-semibold">Cancelled for today</span>
+                              ) : (
+                                <>Room: {slot.venue || 'TBA'} · {slot.course.faculty || 'TBA'}</>
+                              )}
+                            </p>
                           </div>
-                          {status === 'live' && (
-                            <span className="ml-4 shrink-0 bg-error text-on-error text-[10px] font-black uppercase px-2 py-1 rounded">Live</span>
-                          )}
-                          {status === 'upcoming' && minutesUntil(slot, now) <= 30 && (
-                            <span className="ml-4 shrink-0 text-label-sm text-primary dark:text-primary-fixed-dim font-bold">
-                              in {minutesUntil(slot, now)}m
-                            </span>
-                          )}
+                          <div className="ml-4 shrink-0 flex items-center gap-2">
+                            {cancelled ? (
+                              <button
+                                onClick={() => handleUncancelClass(slot)}
+                                className="flex items-center gap-1 bg-primary/10 dark:bg-primary/20 text-primary dark:text-primary-fixed-dim text-[11px] font-bold uppercase px-3 py-1.5 rounded-lg hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors"
+                              >
+                                <span className="material-symbols-outlined text-sm">undo</span>
+                                Restore
+                              </button>
+                            ) : (
+                              <>
+                                {status === 'live' && (
+                                  <span className="bg-error text-on-error text-[10px] font-black uppercase px-2 py-1 rounded">Live</span>
+                                )}
+                                {status === 'upcoming' && minutesUntil(slot, now) <= 30 && (
+                                  <span className="text-label-sm text-primary dark:text-primary-fixed-dim font-bold">
+                                    in {minutesUntil(slot, now)}m
+                                  </span>
+                                )}
+                                {status !== 'past' && (
+                                  <button
+                                    onClick={() => handleCancelClass(slot)}
+                                    title="Cancel class for today"
+                                    className="p-1.5 rounded-lg text-gray-400 dark:text-gray-500 hover:text-error hover:bg-error/10 dark:hover:text-red-400 dark:hover:bg-red-400/10 transition-colors"
+                                  >
+                                    <span className="material-symbols-outlined text-lg">event_busy</span>
+                                  </button>
+                                )}
+                              </>
+                            )}
+                          </div>
                         </div>
                       </div>
                     );
