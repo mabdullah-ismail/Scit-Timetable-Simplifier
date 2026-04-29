@@ -124,19 +124,3 @@ export function requestNotificationPermission(): Promise<NotificationPermission>
   if (!('Notification' in window)) return Promise.resolve('denied');
   return Notification.requestPermission();
 }
-
-export function scheduleClassReminder(slot: ParsedSlot, minutesBefore = 10): void {
-  const now = new Date();
-  const minsUntilStart = minutesUntil(slot, now);
-  const delay = (minsUntilStart - minutesBefore) * 60 * 1000;
-  if (delay <= 0) return;
-
-  setTimeout(() => {
-    if (Notification.permission === 'granted') {
-      new Notification(`📚 Class starting in ${minutesBefore} min`, {
-        body: `${slot.course.course_name} at ${slot.venue}`,
-        icon: '/favicon.svg',
-      });
-    }
-  }, delay);
-}

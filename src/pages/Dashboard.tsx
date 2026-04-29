@@ -1,11 +1,12 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState, useCallback, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getCoreCoursesForBatchAndSection, getElectivesForBatch, type Course } from '../utils/dataParser';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   getAllSlotsForDay, getTodayDayName, classifySlot, minutesUntil,
-  requestNotificationPermission, scheduleClassReminder, type ParsedSlot,
+  requestNotificationPermission, type ParsedSlot,
 } from '../utils/timeUtils';
+import { scheduleReminders, clearAllReminders } from '../utils/reminderManager';
 import { useTheme } from '../context/ThemeContext';
 
 const DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
@@ -22,6 +23,14 @@ const Dashboard: React.FC = () => {
   const [todaySlots, setTodaySlots] = useState<ParsedSlot[]>([]);
   const [batch, setBatch] = useState('');
   const [section, setSection] = useState('');
+  const [toast, setToast] = useState<{ message: string; type: 'success' | 'info' | 'error' } | null>(null);
+  const toastTimer = useRef<ReturnType<typeof setTimeout>>();
+
+  const showToast = useCallback((message: string, type: 'success' | 'info' | 'error' = 'success') => {
+    setToast({ message, type });
+    if (toastTimer.current) clearTimeout(toastTimer.current);
+    toastTimer.current = setTimeout(() => setToast(null), 4000);
+  }, []);
 
   const buildSchedule = useCallback((loadedCourses: Course[]) => {
     const today = getTodayDayName();
@@ -64,16 +73,32 @@ const Dashboard: React.FC = () => {
 
   // Reschedule reminders when today's slots update
   useEffect(() => {
-    if (notifPermission === 'granted') {
-      todaySlots.forEach(slot => scheduleClassReminder(slot, 10));
+    if (notifPermission === 'granted' && todaySlots.length > 0) {
+      const result = scheduleReminders(todaySlots, 10);
+      if (result.scheduled > 0) {
+        showToast(`🔔 ${result.scheduled} reminder${result.scheduled > 1 ? 's' : ''} set for upcoming classes`, 'success');
+      }
     }
-  }, [todaySlots, notifPermission]);
+    return () => {
+      // Cleanup timers on unmount
+      clearAllReminders();
+    };
+  }, [todaySlots, notifPermission, showToast]);
 
   const handleRequestNotif = async () => {
     const perm = await requestNotificationPermission();
     setNotifPermission(perm);
     if (perm === 'granted') {
-      todaySlots.forEach(slot => scheduleClassReminder(slot, 10));
+      const result = scheduleReminders(todaySlots, 10);
+      if (result.scheduled > 0) {
+        showToast(`✅ Reminders enabled! ${result.scheduled} upcoming class${result.scheduled > 1 ? 'es' : ''} tracked`, 'success');
+      } else if (result.alreadyPast > 0 && result.scheduled === 0) {
+        showToast('No upcoming classes left to set reminders for', 'info');
+      } else {
+        showToast('✅ Reminders enabled — will activate on class days', 'success');
+      }
+    } else if (perm === 'denied') {
+      showToast('❌ Notifications blocked — check browser settings', 'error');
     }
   };
 
@@ -94,6 +119,26 @@ const Dashboard: React.FC = () => {
 
   return (
     <div className="font-body-md text-on-surface bg-background dark:bg-gray-950 min-h-screen transition-colors duration-300">
+      {/* Toast Notification */}
+      <AnimatePresence>
+        {toast && (
+          <motion.div
+            initial={{ opacity: 0, y: -40, x: '-50%' }}
+            animate={{ opacity: 1, y: 0, x: '-50%' }}
+            exit={{ opacity: 0, y: -40, x: '-50%' }}
+            transition={{ type: 'spring', damping: 20, stiffness: 300 }}
+            className={`fixed top-4 left-1/2 z-[100] px-5 py-3 rounded-xl shadow-2xl text-sm font-semibold backdrop-blur-md border max-w-[90vw] ${
+              toast.type === 'success'
+                ? 'bg-primary/90 text-white border-primary-fixed-dim'
+                : toast.type === 'error'
+                ? 'bg-error/90 text-white border-error'
+                : 'bg-secondary-container/90 text-on-secondary-container border-outline-variant dark:bg-gray-800/90 dark:text-gray-200 dark:border-gray-700'
+            }`}
+          >
+            {toast.message}
+          </motion.div>
+        )}
+      </AnimatePresence>
       {/* Top Navigation */}
       <header className="flex justify-between items-center px-4 py-3 w-full sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800 shadow-sm transition-colors">
         <div className="flex items-center gap-3">
